@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squirrel Quiz</title>
+  <link rel="stylesheet" href="Squirrel-Quiz.css">
+</head>
+<body>
+  <header>
+    <h1>Squirrel Quiz</h1>
+    <p>Test your knowledge about squirrels!</p>
+  </header>
+  <main>
+    <div id="quiz-container">
+      <h2 id="question">Question will appear here</h2>
+      <ul id="options">
+        <!-- Options will be dynamically generated -->
+      </ul>
+      <button id="next-button">Next Question</button>
+    </div>
+    <div id="result-container" class="hidden">
+      <h2>Your Score: <span id="score">0</span>/4</h2>
+      <button id="restart-button">Restart Quiz</button>
+    </div>
+    <!-- Audio element -->
+    <audio id="quiz-sound" src="squirrel-sound.mp3" preload="auto"></audio>
+  </main>
+  <footer>
+    <p>Made By Garrett Baranowitz</p>
+  </footer>
+  <script src="Squirrel-Quiz.js"></script>
+  <audio controls autoplay>
+    <source src="c:\Users\seaha\Downloads\180524-squirrel-chewing-scratching-eating-toronto-26129.mp3" type="audio/mpeg"> <source>
+  </audio>
+</body>
+</html>
+
